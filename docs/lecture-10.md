@@ -1,3 +1,6 @@
+---
+sidebar_position: 10
+---
 # Episode 10 : Closures in JS
 
 - Function bundled along with it's lexical scope is **closure**.

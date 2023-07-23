@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # Episode 8 : let & const in JS, Temporal Dead Zone
 
 - let and const declarations are hoisted. But its different from **var**

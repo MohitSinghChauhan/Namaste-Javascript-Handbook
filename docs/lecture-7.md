@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # Episode 7 : The Scope Chain, Scope & Lexical Environment
 
 - **Scope** in Javascript is directly related to **Lexical Environment**.
