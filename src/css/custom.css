@@ -167,3 +167,8 @@ div[class^='announcementBar_'] {
   text-decoration: none;
   color: #fff;
 }
+
+.theme-doc-sidebar-container {
+  margin-right: 1.5rem;
+}
+
