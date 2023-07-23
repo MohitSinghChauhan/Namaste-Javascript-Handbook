@@ -37,6 +37,9 @@ const config = {
 			'classic',
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
+				gtag: {
+					trackingID: 'G-VNVFLF1XN7',
+				  },
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo.
@@ -64,6 +67,8 @@ const config = {
 			// Replace with your project's social card
 			colorMode: {
 				defaultMode: 'dark',
+				disableSwitch: false,
+				respectPrefersColorScheme: true,
 			},
 			image: 'img/docusaurus-social-card.jpg',
 			docs: {

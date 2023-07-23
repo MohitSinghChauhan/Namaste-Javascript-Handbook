@@ -23,8 +23,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title}`}
+      description="Learn JavaScript fundamentals through a comprehensive written guide. Covers variables, data types, functions, scope, arrays, DOM manipulation, and more.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
