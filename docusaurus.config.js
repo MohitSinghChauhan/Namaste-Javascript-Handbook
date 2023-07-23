@@ -115,15 +115,6 @@ const config = {
 				style: 'dark',
 				links: [
 					{
-						title: 'Docs',
-						items: [
-							{
-								label: 'Tutorial',
-								to: '/docs/intro',
-							},
-						],
-					},
-					{
 						title: 'About Creator',
 						items: [
 							{
@@ -156,7 +147,7 @@ const config = {
 				],
 				copyright: `Copyright © ${new Date().getFullYear()} Made with ❤️ By Mohit. Built with Docusaurus.`,
 			},
-			
+
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
