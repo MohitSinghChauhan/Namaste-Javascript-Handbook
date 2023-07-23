@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'Namaste JS Handbook',
+	title: 'Namaste JavaScript Handbook',
 	tagline: 'Your Ultimate JavaScript goto Place',
 	favicon: 'img/favicon.ico',
 
