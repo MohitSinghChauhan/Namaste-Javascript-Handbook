@@ -156,11 +156,7 @@ const config = {
 				],
 				copyright: `Copyright © ${new Date().getFullYear()} Made with ❤️ By Mohit. Built with Docusaurus.`,
 			},
-			algolia: {
-				appId: 'Y09P1J4IPV',
-				apiKey: 'e12588cbae68d752469921cc46e9cb66',
-				indexName: 'techinterviewhandbook',
-			},
+			
 			prism: {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
