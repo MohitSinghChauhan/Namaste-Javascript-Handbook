@@ -1,22 +1,29 @@
-# Episode 1 : Execution Context
+---
+sidebar_position: 1
+---
 
-- Everything in JS happens inside the execution context. Imagine a sealed-off container inside which JS runs.
-  It is an abstract concept that hold info about the env. within the current code is being executed.
-  ![Execution Context](../assets/execution-context.jpg "Execution Context")
+# Episode 1: How JavaScript Works! 
 
-- In the container the first component is **memory component** and the 2nd one is **code component**
+## Execution Context
+- Everything in JavaScript happens inside the execution context.
+- The execution context is like a big box or container where the JavaScript code is executed.
+- It consists of two components: the memory component (variable environment) and the code component (thread of execution).
 
-- Memory component has all the variables and functions in key value pairs. It is also called **Variable environment**.
+## Memory Component (Variable Environment)
+- Variables and functions are stored in the memory component as key-value pairs.
+- The memory component is also known as the variable environment.
 
-- Code component is the place where code is executed one line at a time. It is also called the **Thread of Execution**.
+## Code Component (Thread of Execution)
+- The code component is where the JavaScript code is executed line by line.
+- It is also known as the thread of execution.
 
-- JS is a **synchronous**, **single-threaded** language
-  - Synchronous:- In a specific synchronous order.
-  - Single-threaded:- One command at a time.
+## JavaScript Characteristics
+- JavaScript is a synchronous single-threaded language.
+- Synchronous: It executes one command at a time in a specific order.
+- Single-threaded: It can only execute one command at a time.
+- It proceeds to the next line only when the current line has finished executing.
 
-<hr />
 
 Watch Live On Youtube below:
-
-<a href="https://www.youtube.com/watch?v=ZvbzSrg0afE&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP" target="_blank"><img src="https://img.youtube.com/vi/ZvbzSrg0afE/0.jpg" width="750"
+<a href="https://www.youtube.com/watch?v=ZvbzSrg0afE&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP" target="_blank"><img src="https://img.youtube.com/vi/ZvbzSrg0afE/0.jpg" width="550" height="500"
 alt="Execution Context Youtube Link"/></a>
