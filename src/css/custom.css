@@ -178,6 +178,7 @@ div[class^='announcementBar_'] {
 }
 
 #__docusaurus {
+	/* overflow-x: hidden; */
 	background-color: #0e0641;
 }
 
@@ -185,4 +186,28 @@ div[class^='announcementBar_'] {
 	.container-msc {
 		margin-inline: 3rem;
 	}
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: blue rgb(117, 4, 87);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+	width: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: rgb(21, 21, 115);
+	border-radius: 20px;
+	border: 1px dotted rgb(141, 20, 255);
+}
+
+@media (min-width: 997px) {
+  .docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module {
+    max-width: calc(90% - var(--doc-sidebar-width)) !important;
+  }
 }
