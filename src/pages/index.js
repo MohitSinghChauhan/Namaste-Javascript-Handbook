@@ -28,7 +28,7 @@ export default function Home() {
 			{/* set background hero image */}
 
 			<div className={`${styles.hero} hero hero--primary hero--full-height`}>
-				<div className='container' >
+				<div className='container container-msc' >
 					<div className='row'>
 						<div className='col col--6'>
 							<h1 className={styles.hero__title}>Namaste <span className={styles.span__js}> JavaScript</span> Handbook</h1>

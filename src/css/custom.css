@@ -182,7 +182,7 @@ div[class^='announcementBar_'] {
 }
 
 @media screen and (min-width: 768px) {
-	.container {
+	.container-msc {
 		margin-inline: 3rem;
 	}
 }
