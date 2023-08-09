@@ -174,10 +174,15 @@ div[class^='announcementBar_'] {
 .navbar {
 	background-image: linear-gradient(79.32deg, #1c1151 14.31%, #25064d 54.03%, #081470 97.77%);
 	color: #fff;
-  border-bottom: 1px solid var(--ifm-color-emphasis-800);
+	border-bottom: 1px solid var(--ifm-color-emphasis-800);
 }
 
-
 #__docusaurus {
-  background-color: #0e0641;
+	background-color: #0e0641;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		margin-inline: 3rem;
+	}
 }
