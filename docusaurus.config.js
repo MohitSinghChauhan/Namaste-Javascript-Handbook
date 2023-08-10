@@ -39,7 +39,7 @@ const config = {
 			({
 				gtag: {
 					trackingID: 'G-VNVFLF1XN7',
-				  },
+				},
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo.
@@ -67,7 +67,7 @@ const config = {
 			// Replace with your project's social card
 			colorMode: {
 				defaultMode: 'dark',
-				disableSwitch: false,
+				disableSwitch: true,
 				respectPrefersColorScheme: true,
 			},
 			image: 'img/docusaurus-social-card.jpg',
@@ -90,7 +90,7 @@ const config = {
 						position: 'left',
 						label: 'Start Reading',
 					},
-					{ to: '/blog', label: 'Blog', position: 'left' },
+					{ to: '/blog', label: 'Clean Code Guide', position: 'left' },
 					{
 						href: 'https://github.com/MohitSinghChauhan/Namaste-Javascript-Handbook',
 						position: 'right',
