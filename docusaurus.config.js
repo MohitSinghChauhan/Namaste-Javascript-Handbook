@@ -90,7 +90,7 @@ const config = {
 						position: 'left',
 						label: 'Start Reading',
 					},
-					{ to: '/blog', label: 'Clean Code Guide', position: 'left' },
+					// { to: '/blog', label: 'Clean Code Guide', position: 'left' },
 					{
 						href: 'https://github.com/MohitSinghChauhan/Namaste-Javascript-Handbook',
 						position: 'right',
@@ -141,16 +141,16 @@ const config = {
 						items: [
 							{
 								label: 'My Blog',
-								href: 'https://mohitdotexe.hashnode.dev/',
+								href: 'https://dev.to/mohitsinghchauhan/',
 							},
 							{
 								label: 'GitHub',
-								href: 'https://github.com/facebook/docusaurus',
+								href: 'https://github.com/MohitSinghChauhan',
 							},
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} Made with ❤️ By Mohit. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} Made with ❤️ By Mohit. Built with React && Docusaurus.`,
 			},
 
 			prism: {

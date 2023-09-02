@@ -7,8 +7,8 @@
 	--ifm-color-primary-lighter: #8a8adf;
 	--ifm-color-primary-lightest: #afafe9;
 
-	--ifm-font-family-base: 'Inter var', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	--ifm-font-family-base: 'Inter var', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+		'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	--ifm-font-size-base: 16px;
 
 	--ifm-footer-padding-vertical: 3rem;
@@ -38,6 +38,12 @@ html[data-theme='dark'] {
 
 .markdown h1:first-child {
 	--ifm-h1-font-size: 1.5em;
+}
+
+.footer {
+	background-color: #0e0641;
+	color: #fff;
+	border-top: 1px solid var(--ifm-color-emphasis-800);
 }
 
 @media screen and (min-width: 768px) {
@@ -207,7 +213,7 @@ div[class^='announcementBar_'] {
 }
 
 @media (min-width: 997px) {
-  .docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module {
-    max-width: calc(90% - var(--doc-sidebar-width)) !important;
-  }
+	.docMainContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Main-styles-module {
+		max-width: calc(90% - var(--doc-sidebar-width)) !important;
+	}
 }
