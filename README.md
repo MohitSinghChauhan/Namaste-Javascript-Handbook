@@ -1,41 +1,25 @@
-# Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+# Namaste JavaScript HandBook
 
-### Installation
+This repo contains text summaries of the popular [Namaste JavaScript](https://www.youtube.com/watch?v=pN6jk0uUrD8&list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP) course by Akshay Saini.
 
-```
-$ yarn
-```
+## Deployed Link : https://namaste-javascript-handbook.vercel.app/
 
-### Local Development
+## About
 
-```
-$ yarn start
-```
+Namaste JavaScript is perhaps the most comprehensive JavaScript course available online covering concepts from basic to advanced. The course has 40+ hours of video content explaining core JavaScript concepts in depth.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+This repository summarizes the key points from each video in text form for easy reference and learning on the go.
 
-### Build
+## Demo Video - Click to View
+[![Demo](https://img.youtube.com/vi/Z3yqncMqc9M/0.jpg)](https://www.linkedin.com/feed/update/urn:li:activity:7104396629280997376/)
 
-```
-$ yarn build
-```
+## Credits
+- [Alok Raj for text Summaries](https://github.com/alok722/namaste-javascript-notes)
+- [Akshay Saini](https://github.com/akshaymarch7)
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Contributions are welcome! Please open issues for any feedback and suggestions.
 
-### Deployment
+## License
 
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This repository is free to use and share.
