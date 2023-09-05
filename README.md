@@ -1,41 +1,29 @@
-# Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+# Namaste JavaScript HandBook
 
-### Installation
+**Deployed Link : [Namaste Javascript Handbook](https://bit.ly/NJS-HB)**
 
-```
-$ yarn
-```
+Namaste JavaScript is perhaps the most comprehensive JavaScript course available online covering concepts from basic to advanced. The course has 40+ hours of video content explaining core JavaScript concepts in depth.
 
-### Local Development
+**This website give text-based of popular Namaste Javascript YT Series. Each video in text form for easy reference and learning on the go.**
 
-```
-$ yarn start
-```
+### Launch Day
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+**In less than 12 hours it hit 3200 Users and this is huge for me 💖. Thank You Everyone.** <br />
+**Launched on LinkedIn : [Post Link](https://www.linkedin.com/feed/update/urn:li:activity:7104396629280997376/)**
 
-### Build
+> ![image](https://github.com/MohitSinghChauhan/Namaste-Javascript-Handbook/assets/72142831/175e21ef-01a8-45ea-9708-ac92ed9a251d)
 
-```
-$ yarn build
-```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Demo Video - Click on thumbnail to view
+> [![Demo](https://img.youtube.com/vi/Z3yqncMqc9M/0.jpg)](https://www.linkedin.com/feed/update/urn:li:activity:7104396629280997376/)
 
-### Deployment
+## Credits
+- [Alok Raj for text Summaries](https://github.com/alok722/namaste-javascript-notes)
+- [Akshay Saini](https://github.com/akshaymarch7)
 
-Using SSH:
+**Contributions are welcome! Please open issues for any feedback and suggestions.**
 
-```
-$ USE_SSH=true yarn deploy
-```
+## License
 
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This repository is free to use and share.
