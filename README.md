@@ -12,7 +12,8 @@ Namaste JavaScript is perhaps the most comprehensive JavaScript course available
 **In less than 12 hours it hit 3200 Users and this is huge for me 💖. Thank You Everyone.** <br />
 **Launched on LinkedIn : [Post Link](https://www.linkedin.com/feed/update/urn:li:activity:7104396629280997376/)**
 
-> ![image](https://github.com/MohitSinghChauhan/Namaste-Javascript-Handbook/assets/72142831/175e21ef-01a8-45ea-9708-ac92ed9a251d)
+> <img width="613" alt="image" src="https://github.com/MohitSinghChauhan/Namaste-Javascript-Handbook/assets/72142831/ee9e2898-7238-4ea8-ab9b-71f5cba53491">
+
 
 
 ## Demo Video - Click on thumbnail to view
