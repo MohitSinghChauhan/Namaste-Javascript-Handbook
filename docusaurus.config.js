@@ -44,15 +44,13 @@ const config = {
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl:
-						'https://github.com/MohitSinghChauhan/Namaste-Javascript-Handbook/blob/main/',
+					editUrl: 'https://github.com/MohitSinghChauhan/Namaste-Javascript-Handbook/blob/main/',
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl:
-						'https://github.com/MohitSinghChauhan/Namaste-Javascript-Handbook/blob/main/',
+					editUrl: 'https://github.com/MohitSinghChauhan/Namaste-Javascript-Handbook/blob/main/',
 				},
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
@@ -65,12 +63,24 @@ const config = {
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			// Replace with your project's social card
+			metadata: [
+				{
+					name: 'description',
+					content:
+					'Namaste JavaScript Handbook - Free comprehensive written summaries of the popular Namaste JavaScript course videos by Akshay Saini. Learn core JavaScript concepts in-depth properly and boost your JS skills.' ,
+				},
+				{
+					name: 'keywords',
+					content:
+						'javascript, learn javascript, namaste javascript, javascript tutorial, javascript course, javascript training, javascript concepts, write javascript, akshay saini',
+				},
+			],
 			colorMode: {
 				defaultMode: 'dark',
 				disableSwitch: true,
 				respectPrefersColorScheme: false,
 			},
-			image: 'img/docusaurus-social-card.jpg',
+			image: 'img/njs-social-card.svg',
 			docs: {
 				sidebar: {
 					hideable: true,
