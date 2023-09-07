@@ -104,7 +104,7 @@ console.log(b); // Error, Not Defined
 
 - **TLDR**; An inner function can access variables which are in outer functions even if inner function is nested deep. In any other case, a function can't access variables not in its scope.
 
-<hr />/>/>/>/>/>/>/>
+<hr />
 
 Watch Live On Youtube below:
 
